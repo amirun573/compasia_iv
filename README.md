@@ -34,22 +34,22 @@ npm start
 
 
 ## List of API
-![Alt text](./note/Screenshot 2022-07-28 at 1.19.02 AM.png?raw=true "List_API")
-
+![Screenshot 2022-07-28 at 1 19 02 AM](https://user-images.githubusercontent.com/23011041/181339400-9662b9df-c7d8-4366-9e02-d0b0804143b0.png)
 
 Data type for Attribute
 
+```
 firstname: string
 lastname: string
 mobile_no: number
-
+```
 1. Get list of all contacts.
 
 ```
 [Get] /user
 ```
 Outcome:
-![Alt text](./note/Screenshot 2022-07-28 at 1.24.44 AM.png?raw=true "outcome_first")
+![Screenshot 2022-07-28 at 1 58 26 AM](https://user-images.githubusercontent.com/23011041/181340648-9d6d83d4-ded5-4865-8f05-fcd3cd458e17.png)
 
 2. Filter list based on name or mobile number.
 
@@ -67,8 +67,7 @@ Body required: (Note: This API give flexibility where if you want to search by n
 }
 ```
 Outcome:
-![Alt text](./note/Screenshot 2022-07-28 at 1.29.26 AM.png?raw=true "outcome_second")
-
+![Screenshot 2022-07-28 at 1 29 26 AM](https://user-images.githubusercontent.com/23011041/181340152-18edccdf-93f7-4625-9718-aef9d017655d.png)
 3. Create, update, delete contact.
 
     a. Create
@@ -88,7 +87,7 @@ Outcome:
     ```
 
     Outcome:
-    ![Alt text](./note/Screenshot 2022-07-28 at 1.36.27 AM.png?raw=true "outcome_second")
+![Screenshot 2022-07-28 at 1 36 27 AM](https://user-images.githubusercontent.com/23011041/181340821-33808c9c-6645-46ab-a174-c7edd61db392.png)
 
     b. Update
 
@@ -107,7 +106,8 @@ Outcome:
     ```
 
     Outcome:
-    ![Alt text](./note/Screenshot 2022-07-28 at 1.39.14 AM.png?raw=true "outcome_third")
+![Screenshot 2022-07-28 at 2 01 14 AM](https://user-images.githubusercontent.com/23011041/181341088-d96181ca-c41e-4ca5-bb51-5eddd77fdcef.png)
+
 
     c. Delete
 
@@ -116,7 +116,7 @@ Outcome:
     ```
 
      Outcome:
-    ![Alt text](./note/Screenshot 2022-07-28 at 1.44.27 AM.png?raw=true "outcome_forth")
+![Screenshot 2022-07-28 at 1 44 27 AM](https://user-images.githubusercontent.com/23011041/181341203-b37b7661-e44e-4430-ac63-1dfeaa65ac48.png)
 
 
 4. Check duplicate contact based on mobile number.
@@ -133,6 +133,25 @@ Body required:
 ```
 
 Outcome:
-    ![Alt text](./note/Screenshot 2022-07-28 at 1.47.01 AM.png?raw=true "outcome_fifth")
-## If problem with git
+![Screenshot 2022-07-28 at 1 47 01 AM](https://user-images.githubusercontent.com/23011041/181341357-fa7d3da8-88ac-4444-b5d4-ba82517e0cc7.png)
+
+## Validation
+
+If parameters does not match the the data type, API will return 
+
+```
+{
+    "statusCode": 500,
+    "message": "Internal server error"
+}
+```
+
+![Screenshot 2022-07-28 at 2 03 52 AM](https://user-images.githubusercontent.com/23011041/181341577-cc9c07ce-17d5-483e-97d1-1b2578f99917.png)
+
+Some of the API will return parameter that are required if you miss to send.
+
+![Screenshot 2022-07-28 at 2 06 20 AM](https://user-images.githubusercontent.com/23011041/181341949-87a75b59-3845-405b-829e-615cf501015b.png)
+
+
+## If facing problem with git
 Refer: https://stackoverflow.com/questions/56799562/git-submodule-add-error-does-not-have-a-commit-checked-out
