@@ -25,7 +25,15 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Setup Enviroment
+Create file named .env
+```
+HOST = satao.db.elephantsql.com
+PORT = 5432
+USERNAME = sonfswua
+PASSWORD = 0e5hqErktzVrAcSPQybV1QtYaCfUpJ1l
 
+```
 ## Installation
 
 ```bash
@@ -72,4 +80,4 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](LICENSE).
 
-## Suii
+
