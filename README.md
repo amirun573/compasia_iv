@@ -91,6 +91,8 @@ Outcome:
     [Post] /user
     
     ```
+    
+    =====================================================
 
     Body required: (Note: All attributes are required)
     ```
@@ -117,7 +119,9 @@ Outcome:
     [Put] /user/:id
     
     ```
-
+    ======================================
+    
+    
     Body required: (Note: At least of the attributes mentioned during request)
     ```
     
@@ -137,17 +141,23 @@ Outcome:
 
 
     c. Delete
-
+       ========================================
+       
+       
     ```
-    
     [Delete] /user/:id
-    
     ```
-
+    
+    
+    =========================================
+    
+    
      Outcome:
      
      
+     
 ![Screenshot 2022-07-28 at 1 44 27 AM](https://user-images.githubusercontent.com/23011041/181341203-b37b7661-e44e-4430-ac63-1dfeaa65ac48.png)
+
 
 
 4. Check duplicate contact based on mobile number.
