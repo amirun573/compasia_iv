@@ -67,7 +67,10 @@ Body required: (Note: This API give flexibility where if you want to search by n
 }
 ```
 Outcome:
+
 ![Screenshot 2022-07-28 at 1 29 26 AM](https://user-images.githubusercontent.com/23011041/181340152-18edccdf-93f7-4625-9718-aef9d017655d.png)
+
+
 3. Create, update, delete contact.
 
     a. Create
@@ -87,7 +90,10 @@ Outcome:
     ```
 
     Outcome:
+    
+    
 ![Screenshot 2022-07-28 at 1 36 27 AM](https://user-images.githubusercontent.com/23011041/181340821-33808c9c-6645-46ab-a174-c7edd61db392.png)
+
 
     b. Update
 
@@ -106,6 +112,8 @@ Outcome:
     ```
 
     Outcome:
+    
+    
 ![Screenshot 2022-07-28 at 2 01 14 AM](https://user-images.githubusercontent.com/23011041/181341088-d96181ca-c41e-4ca5-bb51-5eddd77fdcef.png)
 
 
@@ -116,6 +124,8 @@ Outcome:
     ```
 
      Outcome:
+     
+     
 ![Screenshot 2022-07-28 at 1 44 27 AM](https://user-images.githubusercontent.com/23011041/181341203-b37b7661-e44e-4430-ac63-1dfeaa65ac48.png)
 
 
@@ -133,6 +143,8 @@ Body required:
 ```
 
 Outcome:
+
+
 ![Screenshot 2022-07-28 at 1 47 01 AM](https://user-images.githubusercontent.com/23011041/181341357-fa7d3da8-88ac-4444-b5d4-ba82517e0cc7.png)
 
 ## Validation
@@ -149,6 +161,7 @@ If parameters does not match the the data type, API will return
 ![Screenshot 2022-07-28 at 2 03 52 AM](https://user-images.githubusercontent.com/23011041/181341577-cc9c07ce-17d5-483e-97d1-1b2578f99917.png)
 
 Some of the API will return parameter that are required if you miss to send.
+
 
 ![Screenshot 2022-07-28 at 2 06 20 AM](https://user-images.githubusercontent.com/23011041/181341949-87a75b59-3845-405b-829e-615cf501015b.png)
 
