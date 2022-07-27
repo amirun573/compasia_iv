@@ -48,8 +48,12 @@ mobile_no: number
 ```
 [Get] /user
 ```
+
 Outcome:
+
+
 ![Screenshot 2022-07-28 at 1 58 26 AM](https://user-images.githubusercontent.com/23011041/181340648-9d6d83d4-ded5-4865-8f05-fcd3cd458e17.png)
+
 
 2. Filter list based on name or mobile number.
 
@@ -72,7 +76,10 @@ Body required: (Note: This API give flexibility where if you want to search by n
 
 Outcome:
 
+
 ![Screenshot 2022-07-28 at 1 29 26 AM](https://user-images.githubusercontent.com/23011041/181340152-18edccdf-93f7-4625-9718-aef9d017655d.png)
+
+
 
 
 3. Create, update, delete contact.
