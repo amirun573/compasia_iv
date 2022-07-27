@@ -58,14 +58,18 @@ Outcome:
 ```
 
 Body required: (Note: This API give flexibility where if you want to search by name, it just required firstname and lastname and if by mobile number, just send only with mobile_no but it is ok to send all of them).
+
 ```
+
 {
     "firstname": "{{firstname}}",
     "lastname": "{{lastname}}",
     "mobile_no":{{mobile_no}}
 
 }
+
 ```
+
 Outcome:
 
 ![Screenshot 2022-07-28 at 1 29 26 AM](https://user-images.githubusercontent.com/23011041/181340152-18edccdf-93f7-4625-9718-aef9d017655d.png)
@@ -76,17 +80,21 @@ Outcome:
     a. Create
 
     ```
+    
     [Post] /user
+    
     ```
 
     Body required: (Note: All attributes are required)
     ```
+    
     {
         "firstname": "{{firstname}}",
         "lastname": "{{lastname}}",
         "mobile_no":{{mobile_no}}
 
     }
+    
     ```
 
     Outcome:
@@ -98,17 +106,21 @@ Outcome:
     b. Update
 
     ```
+    
     [Put] /user/:id
+    
     ```
 
     Body required: (Note: At least of the attributes mentioned during request)
     ```
+    
     {
         "firstname": "{{firstname}}",
         "lastname": "{{lastname}}",
         "mobile_no":{{mobile_no}}
 
     }
+    
     ```
 
     Outcome:
@@ -120,7 +132,9 @@ Outcome:
     c. Delete
 
     ```
+    
     [Delete] /user/:id
+    
     ```
 
      Outcome:
@@ -137,9 +151,11 @@ Outcome:
 
 Body required:
 ```
+
 {
     "mobile_no":{{mobile_no}}
 }
+
 ```
 
 Outcome:
@@ -152,10 +168,12 @@ Outcome:
 If parameters does not match the the data type, API will return 
 
 ```
+
 {
     "statusCode": 500,
     "message": "Internal server error"
 }
+
 ```
 
 ![Screenshot 2022-07-28 at 2 03 52 AM](https://user-images.githubusercontent.com/23011041/181341577-cc9c07ce-17d5-483e-97d1-1b2578f99917.png)
