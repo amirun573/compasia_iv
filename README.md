@@ -166,5 +166,18 @@ Some of the API will return parameter that are required if you miss to send.
 ![Screenshot 2022-07-28 at 2 06 20 AM](https://user-images.githubusercontent.com/23011041/181341949-87a75b59-3845-405b-829e-615cf501015b.png)
 
 
+## User Module
+
+In this assessment, it provides user module in order to handle this attribute. It consists of controller, model and service. 
+
+![user_module](https://user-images.githubusercontent.com/23011041/181390794-f3f2b4e1-3530-4f7e-bba2-df8b69c417f3.PNG)
+
+For controller, it helps in handling the request where it can setup which method to be used and what kind of parameter needs.
+
+For model, it helps to identify the attributes for user and help in creating user table in database and also handling parameter during request.
+
+For services, it help in using TYPEORM in order to deal with database by have separate methods for specific used.
+
+
 ## If facing problem with git
 Refer: https://stackoverflow.com/questions/56799562/git-submodule-add-error-does-not-have-a-commit-checked-out
