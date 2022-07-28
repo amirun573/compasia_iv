@@ -1,5 +1,5 @@
 # compasia_iv
-For Assesement
+For Assesement, I used NestJS and TYPEORM Postgres Database.
 
 ## Setup Enviroment
 Create file named .env
